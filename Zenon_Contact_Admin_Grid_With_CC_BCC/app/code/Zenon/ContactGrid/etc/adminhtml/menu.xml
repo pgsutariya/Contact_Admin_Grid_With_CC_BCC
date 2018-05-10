@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+ <menu>
+     <add id="Zenon_ContactGrid::contactGrid" title="Zenon Contact" module="Zenon_ContactGrid" sortOrder="10" resource="Zenon_ContactGrid::contactGrid"/>
+     <add id="Zenon_ContactGrid::add_contactGrid" title="Contact List" module="Zenon_ContactGrid" sortOrder="20" parent="Zenon_ContactGrid::contactGrid" action="contactGrid/contactGrid" resource="Zenon_ContactGrid::add_member"/>
+ </menu>
+</config>
